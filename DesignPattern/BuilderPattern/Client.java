@@ -21,5 +21,13 @@ public class Client {
         benzBuilder.setSequence(sequece);
         BenzModel benz = (BenzModel)benzBuilder.getCarModel();
         benz.run();
+
+        Director director = new Director();
+        for(int i = 0; i < 10000; i++){
+            director.getABenzModel().run();
+        }
+        for(int i = 0; i < 10000; i++){
+            director.getBBenzModel().run();
+        }
     }
 }
