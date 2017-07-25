@@ -13,5 +13,8 @@ public class Client {
         System.out.println("----服装公司是这样运行的---");
         ClothesCrop clothesCrop = new ClothesCrop();
         clothesCrop.makeMoney();
+        System.out.println("----山寨公司运行----");
+        IPodCrop iPodCrop = new IPodCrop();
+        iPodCrop.makeMoney();
     }
 }
