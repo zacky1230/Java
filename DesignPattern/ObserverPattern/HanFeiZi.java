@@ -17,6 +17,7 @@ public class HanFeiZi implements IHanFeiZi {
     @Override
     public void haveFun() {
         System.out.println("韩非子：开始娱乐了。。。");
+        this.isHaveFun = true;
     }
 
     public boolean isHaveBreakfast(){
