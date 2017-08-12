@@ -1,0 +1,13 @@
+package DesignPattern.ChainOfResponsibilityPattern;
+
+/**
+ * @author gy1zc3@gmail.com
+ *         Created by zacky on 15:43.
+ */
+public class Son implements IHandler {
+    @Override
+    public void HandleMessage(IWomen women) {
+        System.out.println("母亲的请示是："+ women.getRequest());
+        System.out.println("儿子的答复是：同意");
+    }
+}
